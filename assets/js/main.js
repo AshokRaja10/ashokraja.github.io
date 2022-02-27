@@ -33,6 +33,10 @@
     }
   }
 
+  // particle bg
+  document.addEventListener('DOMContentLoaded', (event) => {
+    canvasInit();
+  });
   /**
    * Easy on scroll event listener 
    */
